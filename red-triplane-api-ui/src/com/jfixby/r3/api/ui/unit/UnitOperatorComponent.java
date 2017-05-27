@@ -7,4 +7,6 @@ public interface UnitOperatorComponent {
 
 	UnitHandler deployUnit (ID unitID);
 
+	UnitHandler push (UnitHandler unitHandler);
+
 }

@@ -29,4 +29,8 @@ public class UnitOperator {
 		return invoke().deployUnit(unitID);
 	}
 
+	public static UnitHandler push (final UnitHandler unitHandler) {
+		return invoke().push(unitHandler);
+	}
+
 }
