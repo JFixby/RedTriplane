@@ -1,6 +1,6 @@
 ext {
         scarabeiVersion = "1.4.0"
-        ranaVersion = "c2f57dab68"
+        ranaVersion = "12f77ec6fa"
 }
 
 allprojects {
