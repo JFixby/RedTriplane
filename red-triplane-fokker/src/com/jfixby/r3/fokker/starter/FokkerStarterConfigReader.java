@@ -36,7 +36,7 @@ public class FokkerStarterConfigReader implements PackageReader {
 		final String str = input.packageRootFile.readToString();
 		final FokkerStarterConfig configData = Json.deserializeFromString(FokkerStarterConfig.class, str);
 		final PackageInfo info = input.packageInfo;
-		final String name = info.getPackageName();
+		final String name = info.packageName;
 		final ID assetID = Names.newID(name);
 		final FokkerStarterConfigAsset asset = new FokkerStarterConfigAsset(assetID, configData);
 		input.assetsContainer.addAsset(assetID, asset);

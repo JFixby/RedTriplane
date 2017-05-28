@@ -3,6 +3,8 @@ package com.jfixby.r3.fokker;
 
 import java.util.HashMap;
 
+import com.jfixby.scarabei.api.collections.Collections;
+
 public class FokkerStarterConfig {
 
 	public static final String TITLE = "title";
@@ -17,6 +19,11 @@ public class FokkerStarterConfig {
 
 	public String getValue (final String key) {
 		return this.params.get(key);
+	}
+
+	public void print () {
+		Collections.newMap(this.params).print("FokkerStarterConfig");
+		;
 	}
 
 }

@@ -20,4 +20,17 @@ public class FokkerStarterConfigAsset implements Asset {
 		return this.assetID;
 	}
 
+	@Override
+	public String toString () {
+		return "FokkerStarterConfigAsset[" + this.assetID + "]";
+	}
+
+	public void print () {
+		this.configData.print();
+	}
+
+	public String getValue (final String arg0) {
+		return this.configData.params.get(arg0);
+	}
+
 }
