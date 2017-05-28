@@ -1,3 +1,3 @@
 include 'red-triplane-api-ui'
-include 'red-triplane-api-fokker'
-include 'red-triplane-fokker'
+include 'red-triplane-fokker-api'
+include 'red-triplane-fokker-core'

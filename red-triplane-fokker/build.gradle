@@ -1,6 +1,0 @@
-
-
-dependencies {
-         compile "com.github.JFixby.Rana:rana-loader-api:$ranaVersion"
-        
-}

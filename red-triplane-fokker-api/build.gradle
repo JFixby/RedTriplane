@@ -6,6 +6,6 @@ ext {
 
 dependencies{
 
-	compile "com.github.JFixby.Rana:rana-loader-api:$ranaVersion"
+	//compile "com.github.JFixby.Rana:rana-loader-api:$ranaVersion"
 	compile "com.badlogicgames.gdx:gdx:$gdxVersion"
 }

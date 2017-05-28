@@ -1,0 +1,7 @@
+
+
+dependencies {
+	compile project(":red-triplane-fokker-api")
+         //compile "com.github.JFixby.Rana:rana-loader-api:$ranaVersion"
+        
+}

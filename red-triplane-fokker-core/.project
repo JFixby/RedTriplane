@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>red-triplane-api-fokker</name>
-	<comment>Project red-triplane-api-fokker created by Buildship.</comment>
+	<name>red-triplane-fokker-core</name>
+	<comment>Project red-triplane-fokker created by Buildship.</comment>
 	<projects>
 	</projects>
 	<buildSpec>
