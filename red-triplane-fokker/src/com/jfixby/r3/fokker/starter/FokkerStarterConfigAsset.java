@@ -3,9 +3,10 @@ package com.jfixby.r3.fokker.starter;
 
 import com.jfixby.r3.fokker.FokkerStarterConfig;
 import com.jfixby.rana.api.asset.Asset;
+import com.jfixby.rana.api.asset.AssetsGroup;
 import com.jfixby.scarabei.api.assets.ID;
 
-public class FokkerStarterConfigAsset implements Asset {
+public class FokkerStarterConfigAsset implements Asset, AssetsGroup {
 
 	private final FokkerStarterConfig configData;
 	private final ID assetID;
@@ -31,6 +32,15 @@ public class FokkerStarterConfigAsset implements Asset {
 
 	public String getValue (final String arg0) {
 		return this.configData.params.get(arg0);
+	}
+
+	@Override
+	public AssetsGroup getGroup () {
+		return this;
+	}
+
+	@Override
+	public void dispose () {
 	}
 
 }

@@ -1,5 +1,11 @@
+ext {
+        scarabeiVersion = "1.4.0"
+        ranaVersion = "12f77ec6fa"
+        gdxVersion = "1.9.6"
+}
+
 dependencies{
 
 	compile "com.github.JFixby.Rana:rana-loader-api:$ranaVersion"
-	
+	compile "com.badlogicgames.gdx:gdx:$gdxVersion"
 }

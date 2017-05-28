@@ -8,5 +8,6 @@
 	<classpathentry combineaccessrules="false" kind="src" path="/rana-manager-api"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/rana-package-api"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/scarabei-api"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/red-triplane-api-ui"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
