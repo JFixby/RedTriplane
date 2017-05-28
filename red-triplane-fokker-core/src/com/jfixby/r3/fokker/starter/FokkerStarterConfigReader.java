@@ -3,7 +3,7 @@ package com.jfixby.r3.fokker.starter;
 
 import java.io.IOException;
 
-import com.jfixby.r3.fokker.FokkerStarterConfig;
+import com.jfixby.r3.fokker.api.starter.FokkerStarterConfig;
 import com.jfixby.rana.api.format.PackageFormat;
 import com.jfixby.rana.api.loader.PackageInfo;
 import com.jfixby.rana.api.loader.PackageReader;

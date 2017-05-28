@@ -1,7 +1,7 @@
 
 package com.jfixby.r3.fokker.starter;
 
-import com.jfixby.r3.fokker.FokkerStarterConfig;
+import com.jfixby.r3.fokker.api.starter.FokkerStarterConfig;
 import com.jfixby.rana.api.asset.Asset;
 import com.jfixby.rana.api.asset.AssetsGroup;
 import com.jfixby.scarabei.api.assets.ID;
