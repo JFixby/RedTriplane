@@ -4,6 +4,7 @@
 	<classpathentry kind="src" path="fokker-gdx-filesystem"/>
 	<classpathentry kind="src" path="gdx-r3-font"/>
 	<classpathentry kind="src" path="red-triplane-fokker-gdx"/>
+	<classpathentry kind="src" path="red-triplane-fokker-ui"/>
 	<classpathentry kind="src" path="red-triplane-shader-fokker"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6/"/>
 	<classpathentry kind="con" path="org.eclipse.buildship.core.gradleclasspathcontainer"/>
@@ -24,6 +25,5 @@
 	<classpathentry combineaccessrules="false" kind="src" path="/texture-slicer-api"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/red-triplane-shader-api"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/box2d-gdx"/>
-	<classpathentry kind="src" path="red-triplane-fokker-ui"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
