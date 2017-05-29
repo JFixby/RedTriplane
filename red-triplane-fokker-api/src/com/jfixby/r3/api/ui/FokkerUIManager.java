@@ -5,7 +5,8 @@ import com.jfixby.scarabei.api.ComponentInstaller;
 
 public class FokkerUIManager {
 
-	static private ComponentInstaller<FokkerUIManagerComponent> componentInstaller = new ComponentInstaller<FokkerUIManagerComponent>("UI");
+	static private ComponentInstaller<FokkerUIManagerComponent> componentInstaller = new ComponentInstaller<FokkerUIManagerComponent>(
+		"FokkerUIManager");
 
 	public static final void installComponent (final FokkerUIManagerComponent component_to_install) {
 		componentInstaller.installComponent(component_to_install);

@@ -24,5 +24,6 @@
 	<classpathentry combineaccessrules="false" kind="src" path="/texture-slicer-api"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/red-triplane-shader-api"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/box2d-gdx"/>
+	<classpathentry kind="src" path="red-triplane-fokker-ui"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
