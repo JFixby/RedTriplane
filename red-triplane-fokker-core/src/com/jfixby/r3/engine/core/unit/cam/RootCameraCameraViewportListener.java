@@ -1,0 +1,16 @@
+
+package com.jfixby.r3.engine.core.unit.cam;
+
+import com.jfixby.r3.api.ScreenDimentions;
+import com.jfixby.r3.api.ui.unit.camera.Camera;
+import com.jfixby.r3.api.ui.unit.camera.CameraManager;
+
+public class RootCameraCameraViewportListener implements CameraManager {
+
+	@Override
+	public void onScreenUpdate (ScreenDimentions viewport_update, Camera your_camera) {
+
+		your_camera.setSize(viewport_update.getScreenWidth(), viewport_update.getScreenHeight());
+	}
+
+}

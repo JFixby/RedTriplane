@@ -1,3 +1,18 @@
-include 'red-triplane-api-ui'
+include 'red-triplane-api'
+
+include 'red-triplane-ui-api'
+
+include 'red-triplane-shader-api'
+include 'red-triplane-shader-red'
+
+include 'red-triplane-scene2d-api'
+include 'red-triplane-scene2d-red'
+
+include 'red-triplane-physics-api'
+include 'red-triplane-physics-red'
+
+
 include 'red-triplane-fokker-api'
 include 'red-triplane-fokker-core'
+
+
