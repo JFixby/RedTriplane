@@ -3,8 +3,6 @@ package com.jfixby.r3.physics;
 
 import com.jfixby.r3.api.physics.BODY_TYPE;
 import com.jfixby.r3.api.physics.PhysicalProperties;
-import com.jfixby.r3.collide.RedCategory;
-import com.jfixby.r3.collide.RedCollisionRelations;
 import com.jfixby.scarabei.api.collisions.CollisionCategory;
 import com.jfixby.scarabei.api.collisions.CollisionRelations;
 import com.jfixby.scarabei.api.collisions.Collisions;
@@ -17,7 +15,7 @@ public class PhysicalPropertiesImpl implements PhysicalProperties {
 	private float restitution = 0.5f; // прыгучесть
 	private float density = 0.5f;
 	private CollisionCategory collisionCategory = Collisions.DEFAULT();
-	private final RedCollisionRelations collisionRelations = new RedCollisionRelations();
+	private final CollisionRelations collisionRelations = Collisions.newCollisionRelations();
 
 	@Override
 	public void setType (final BODY_TYPE type) {
@@ -151,11 +149,11 @@ public class PhysicalPropertiesImpl implements PhysicalProperties {
 	}
 
 	public short getCategoryBits () {
-		return ((RedCategory)this.collisionCategory).getBits();
+		return (short)(this.collisionCategory).getBits();
 	}
 
 	public short getMaskBits () {
-		return this.collisionRelations.getMaskBits();
+		return (short)this.collisionRelations.getMaskBits();
 	};
 
 }

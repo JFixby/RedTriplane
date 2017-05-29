@@ -7,8 +7,7 @@ import org.box2d.jfixby.api.ContactImpulse;
 import org.box2d.jfixby.api.ContactListener;
 import org.box2d.jfixby.api.Manifold;
 
-import com.jfixby.r3.collide.RedCollisionEvent;
-import com.jfixby.r3.collide.RedCollisionEvent.COLLISION_EVENT_HEADER;
+import com.jfixby.r3.physics.RedCollisionEvent.COLLISION_EVENT_HEADER;
 import com.jfixby.scarabei.api.collections.Collections;
 import com.jfixby.scarabei.api.collections.Map;
 import com.jfixby.scarabei.api.collections.Pool;

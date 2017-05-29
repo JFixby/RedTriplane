@@ -1,7 +1,5 @@
 
-package com.jfixby.r3.collide;
-
-import com.jfixby.r3.physics.BodyAvatar;
+package com.jfixby.r3.physics;
 
 public class RedCollisionEvent {
 	public enum COLLISION_EVENT_HEADER {
