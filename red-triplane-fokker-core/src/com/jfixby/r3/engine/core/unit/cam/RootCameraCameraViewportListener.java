@@ -1,7 +1,7 @@
 
 package com.jfixby.r3.engine.core.unit.cam;
 
-import com.jfixby.r3.api.ScreenDimentions;
+import com.jfixby.r3.api.screen.ScreenDimentions;
 import com.jfixby.r3.api.ui.unit.camera.Camera;
 import com.jfixby.r3.api.ui.unit.camera.CameraManager;
 

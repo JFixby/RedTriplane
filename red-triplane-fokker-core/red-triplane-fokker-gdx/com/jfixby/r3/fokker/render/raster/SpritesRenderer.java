@@ -12,7 +12,7 @@ import com.badlogic.gdx.graphics.g2d.TextureAtlas.AtlasSprite;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import com.badlogic.gdx.utils.Array;
 import com.badlogic.gdx.utils.NumberUtils;
-import com.jfixby.r3.api.Screen;
+import com.jfixby.r3.api.screen.Screen;
 import com.jfixby.r3.engine.core.unit.text.FokkerRedRasterizedString;
 import com.jfixby.r3.fokker.api.render.FokkerString;
 import com.jfixby.r3.fokker.assets.RedFokkerRasterData;

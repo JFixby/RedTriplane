@@ -1,5 +1,5 @@
 
-package com.jfixby.r3.api;
+package com.jfixby.r3.api.unit;
 
 import com.jfixby.scarabei.api.ComponentInstaller;
 import com.jfixby.scarabei.api.assets.ID;

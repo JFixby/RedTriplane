@@ -4,8 +4,8 @@ package com.jfixby.r3.engine.core.unit.cam;
 import java.util.ArrayList;
 
 import com.jfixby.r3.api.EngineParams.Assets;
-import com.jfixby.r3.api.Screen;
-import com.jfixby.r3.api.ScreenDimentionsChecker;
+import com.jfixby.r3.api.screen.Screen;
+import com.jfixby.r3.api.screen.ScreenDimentionsChecker;
 import com.jfixby.r3.api.ui.unit.camera.Camera;
 import com.jfixby.r3.api.ui.unit.camera.CameraManager;
 import com.jfixby.r3.api.ui.unit.camera.CameraProjection;

@@ -1,4 +1,4 @@
-package com.jfixby.r3.fokker.api;
+package com.jfixby.r3.api.input;
 
 import java.util.Iterator;
 

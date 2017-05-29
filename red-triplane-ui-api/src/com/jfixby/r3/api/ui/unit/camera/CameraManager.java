@@ -1,6 +1,6 @@
 package com.jfixby.r3.api.ui.unit.camera;
 
-import com.jfixby.r3.api.ScreenDimentions;
+import com.jfixby.r3.api.screen.ScreenDimentions;
 
 public interface CameraManager {
 

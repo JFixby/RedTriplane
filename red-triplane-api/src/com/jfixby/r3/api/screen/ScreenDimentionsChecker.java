@@ -1,4 +1,4 @@
-package com.jfixby.r3.api;
+package com.jfixby.r3.api.screen;
 
 public interface ScreenDimentionsChecker {
 

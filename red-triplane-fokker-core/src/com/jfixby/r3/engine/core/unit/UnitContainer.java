@@ -1,7 +1,7 @@
 
 package com.jfixby.r3.engine.core.unit;
 
-import com.jfixby.r3.api.Screen;
+import com.jfixby.r3.api.screen.Screen;
 import com.jfixby.r3.api.ui.Intent;
 import com.jfixby.r3.api.ui.UnitsSpawner;
 import com.jfixby.r3.api.ui.UnitsSpawningException;

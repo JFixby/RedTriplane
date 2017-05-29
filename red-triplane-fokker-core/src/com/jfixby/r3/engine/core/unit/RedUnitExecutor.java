@@ -1,6 +1,7 @@
 
 package com.jfixby.r3.engine.core.unit;
 
+import com.jfixby.r3.api.input.InputQueue;
 import com.jfixby.r3.api.ui.unit.ComponentsFactory;
 import com.jfixby.r3.api.ui.unit.RootLayer;
 import com.jfixby.r3.api.ui.unit.UnitManager;
@@ -13,7 +14,6 @@ import com.jfixby.r3.engine.core.unit.input.RedLayerInputProcessor;
 import com.jfixby.r3.engine.core.unit.layers.RedLayer;
 import com.jfixby.r3.engine.core.unit.tool.RedUnitTools;
 import com.jfixby.r3.fokker.api.EngineState;
-import com.jfixby.r3.fokker.api.InputQueue;
 import com.jfixby.scarabei.api.geometry.Geometry;
 import com.jfixby.scarabei.api.geometry.projections.IdentityProjection;
 

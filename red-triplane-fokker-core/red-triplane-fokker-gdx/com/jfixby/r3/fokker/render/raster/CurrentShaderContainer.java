@@ -3,7 +3,7 @@ package com.jfixby.r3.fokker.render.raster;
 
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.glutils.ShaderProgram;
-import com.jfixby.r3.api.Screen;
+import com.jfixby.r3.api.screen.Screen;
 import com.jfixby.r3.api.shader.FOKKER_SHADER_PARAMS;
 import com.jfixby.r3.api.shader.Shader;
 import com.jfixby.r3.api.shader.ShaderParameter;

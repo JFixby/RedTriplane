@@ -1,5 +1,5 @@
 
-package com.jfixby.r3.fokker.api;
+package com.jfixby.r3.api.input;
 
 import com.jfixby.scarabei.api.input.Key;
 import com.jfixby.scarabei.api.input.MouseButton;

@@ -1,8 +1,8 @@
 
 package com.jfixby.r3.engine.core.unit.layers;
 
-import com.jfixby.r3.api.Screen;
-import com.jfixby.r3.api.ScreenDimentionsChecker;
+import com.jfixby.r3.api.screen.Screen;
+import com.jfixby.r3.api.screen.ScreenDimentionsChecker;
 import com.jfixby.r3.api.ui.unit.user.ScreenChangeListener;
 import com.jfixby.scarabei.api.err.Err;
 
