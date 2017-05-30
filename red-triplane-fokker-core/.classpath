@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="src" path="fokker-gdx-filesystem"/>
 	<classpathentry kind="src" path="gdx-r3-font"/>
 	<classpathentry kind="src" path="red-triplane-fokker-gdx"/>
 	<classpathentry kind="src" path="red-triplane-fokker-ui"/>
