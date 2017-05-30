@@ -7,10 +7,8 @@ import com.jfixby.r3.api.ui.unit.geometry.RectangleComponent;
 import com.jfixby.r3.api.ui.unit.layer.Layer;
 import com.jfixby.r3.api.ui.unit.raster.CanvasComponent;
 import com.jfixby.r3.api.ui.unit.raster.Raster;
-import com.jfixby.r3.api.ui.unit.txt.Text;
 import com.jfixby.r3.api.ui.unit.txt.TextBar;
 import com.jfixby.r3.api.ui.unit.txt.TextBarSpecs;
-import com.jfixby.r3.api.ui.unit.txt.TextTranslation;
 import com.jfixby.r3.engine.core.unit.RedComponentsFactory;
 import com.jfixby.scarabei.api.assets.ID;
 import com.jfixby.scarabei.api.color.Color;
@@ -21,6 +19,8 @@ import com.jfixby.scarabei.api.floatn.ReadOnlyFloat2;
 import com.jfixby.scarabei.api.geometry.CanvasPosition;
 import com.jfixby.scarabei.api.geometry.Geometry;
 import com.jfixby.scarabei.api.math.Angle;
+import com.jfixby.strings.api.Text;
+import com.jfixby.strings.api.TextTranslation;
 
 public class RedTextBar implements TextBar, LayerBasedComponent {
 

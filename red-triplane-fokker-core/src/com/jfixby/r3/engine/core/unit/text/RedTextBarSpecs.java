@@ -2,10 +2,10 @@
 package com.jfixby.r3.engine.core.unit.text;
 
 import com.jfixby.r3.api.ui.unit.raster.Raster;
-import com.jfixby.r3.api.ui.unit.txt.Text;
 import com.jfixby.r3.api.ui.unit.txt.TextBarSpecs;
 import com.jfixby.scarabei.api.assets.ID;
 import com.jfixby.scarabei.api.color.Color;
+import com.jfixby.strings.api.Text;
 
 public class RedTextBarSpecs implements TextBarSpecs {
 

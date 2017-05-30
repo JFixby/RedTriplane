@@ -7,7 +7,6 @@ import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import com.badlogic.gdx.utils.Array;
 import com.jfixby.r3.api.ui.unit.layer.VisibleComponent;
 import com.jfixby.r3.api.ui.unit.raster.BLEND_MODE;
-import com.jfixby.r3.ext.font.gdx.TTFFontInfo;
 import com.jfixby.r3.ext.font.gdx.ft.GdxR3FontCache;
 import com.jfixby.r3.ext.font.gdx.ft.GdxR3FontGenerator;
 import com.jfixby.r3.ext.font.gdx.ft.GdxR3FontParameters;
@@ -31,6 +30,7 @@ import com.jfixby.scarabei.api.geometry.Geometry;
 import com.jfixby.scarabei.api.log.L;
 import com.jfixby.scarabei.api.math.FloatMath;
 import com.jfixby.scarabei.api.util.JUtils;
+import com.jfixby.strings.api.io.font.TTFFontInfo;
 
 public class FokkerRedRasterizedString implements FokkerDrawable, FokkerString, VisibleComponent {
 	final RedRasterizedString master;

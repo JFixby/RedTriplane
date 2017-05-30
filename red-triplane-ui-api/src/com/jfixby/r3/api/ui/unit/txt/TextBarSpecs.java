@@ -4,6 +4,7 @@ package com.jfixby.r3.api.ui.unit.txt;
 import com.jfixby.r3.api.ui.unit.raster.Raster;
 import com.jfixby.scarabei.api.assets.ID;
 import com.jfixby.scarabei.api.color.Color;
+import com.jfixby.strings.api.Text;
 
 public interface TextBarSpecs {
 
@@ -14,10 +15,6 @@ public interface TextBarSpecs {
 	void setFontSize (float font_size);
 
 	float getFontSize ();
-
-	Text getText ();
-
-	void setText (Text text);
 
 	public void setPadding (float padding);
 
@@ -42,5 +39,9 @@ public interface TextBarSpecs {
 	void setRawText (String text_value_raw);
 
 	String getRawText ();
+
+	Text getText ();
+
+	void setText (Text text);
 
 }

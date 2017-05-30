@@ -14,9 +14,17 @@ include 'red-triplane-scene2d-red'
 include 'red-triplane-physics-api'
 include 'red-triplane-physics-red'
 
+include 'red-triplane-text-api'
+include 'red-triplane-text-red'
+
 
 include 'red-triplane-fokker-api'
 include 'red-triplane-fokker-core'
+
+include 'red-triplane-fokker-font-api'
+include 'red-triplane-fokker-font-api'
+
+
 include 'red-triplane-fokker-desktop'
 include 'red-triplane-fokker-android'
 include 'red-triplane-fokker-ios'

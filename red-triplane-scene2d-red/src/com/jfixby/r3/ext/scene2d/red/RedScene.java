@@ -41,7 +41,6 @@ import com.jfixby.r3.api.ui.unit.shader.ShaderFactory;
 import com.jfixby.r3.api.ui.unit.shader.ShaderSpecs;
 import com.jfixby.r3.api.ui.unit.txt.RasterizedString;
 import com.jfixby.r3.api.ui.unit.txt.RasterizedStringSpecs;
-import com.jfixby.r3.api.ui.unit.txt.Text;
 import com.jfixby.r3.api.ui.unit.txt.TextBar;
 import com.jfixby.r3.api.ui.unit.txt.TextBarSpecs;
 import com.jfixby.r3.api.ui.unit.txt.TextFactory;
@@ -50,13 +49,13 @@ import com.jfixby.r3.ext.api.scene2d.srlz.ActionsGroup;
 import com.jfixby.r3.ext.api.scene2d.srlz.Anchor;
 import com.jfixby.r3.ext.api.scene2d.srlz.CameraSettings;
 import com.jfixby.r3.ext.api.scene2d.srlz.CameraSettings.MODE;
-import com.jfixby.r3.ext.scene2d.api.Scene2DComponent;
 import com.jfixby.r3.ext.api.scene2d.srlz.LayerElement;
 import com.jfixby.r3.ext.api.scene2d.srlz.ParallaxSettings;
 import com.jfixby.r3.ext.api.scene2d.srlz.RASTER_BLEND_MODE;
 import com.jfixby.r3.ext.api.scene2d.srlz.ShaderParameterType;
 import com.jfixby.r3.ext.api.scene2d.srlz.ShaderParameterValue;
 import com.jfixby.r3.ext.api.scene2d.srlz.ShaderSettings;
+import com.jfixby.r3.ext.scene2d.api.Scene2DComponent;
 import com.jfixby.rana.api.asset.AssetHandler;
 import com.jfixby.rana.api.asset.AssetsConsumer;
 import com.jfixby.rana.api.asset.LoadedAssets;
@@ -81,6 +80,7 @@ import com.jfixby.scarabei.api.json.Json;
 import com.jfixby.scarabei.api.log.L;
 import com.jfixby.scarabei.api.sys.Sys;
 import com.jfixby.scarabei.api.sys.settings.SystemSettings;
+import com.jfixby.strings.api.Text;
 
 public class RedScene implements Scene2DComponent, LayerBasedComponent {
 
