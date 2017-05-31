@@ -17,17 +17,26 @@ include 'red-triplane-physics-red'
 include 'red-triplane-text-api'
 include 'red-triplane-text-red'
 
-
-include 'red-triplane-fokker-api'
-include 'red-triplane-fokker-core'
-
-include 'red-triplane-fokker-font-api'
-include 'red-triplane-fokker-font-api'
+include 'red-triplane-uiact-api'
+include 'red-triplane-uiact-red'
 
 
-include 'red-triplane-fokker-desktop'
-include 'red-triplane-fokker-android'
-include 'red-triplane-fokker-ios'
-include 'red-triplane-fokker-gwt'
+include 'fokker-api'
+include 'fokker-core'
+
+include 'fokker-render-api'
+include 'fokker-render-red'
+
+include 'fokker-ui'
+
+
+include 'fokker-font-api'
+include 'fokker-font-api'
+
+
+include 'fokker-desktop'
+include 'fokker-android'
+include 'fokker-ios'
+include 'fokker-gwt'
 
 

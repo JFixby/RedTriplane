@@ -1,6 +1,7 @@
 
 package com.jfixby.r3.ext.scene2d.red;
 
+import com.jfixby.r3.api.render.BLEND_MODE;
 import com.jfixby.r3.api.ui.unit.ComponentsFactory;
 import com.jfixby.r3.api.ui.unit.LayerBasedComponent;
 import com.jfixby.r3.api.ui.unit.animation.Animation;
@@ -33,7 +34,6 @@ import com.jfixby.r3.api.ui.unit.parallax.Parallax;
 import com.jfixby.r3.api.ui.unit.parallax.ParallaxElementSpecs;
 import com.jfixby.r3.api.ui.unit.parallax.ParallaxFactory;
 import com.jfixby.r3.api.ui.unit.parallax.ParallaxSpecs;
-import com.jfixby.r3.api.ui.unit.raster.BLEND_MODE;
 import com.jfixby.r3.api.ui.unit.raster.CanvasComponent;
 import com.jfixby.r3.api.ui.unit.raster.Raster;
 import com.jfixby.r3.api.ui.unit.shader.ShaderComponent;

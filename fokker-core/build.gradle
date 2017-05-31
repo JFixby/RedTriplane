@@ -1,0 +1,9 @@
+
+
+dependencies {
+	compile project(":fokker-api")
+	compile project(":red-triplane-api")
+	compile "com.badlogicgames.gdx:gdx-freetype:$gdxVersion"
+         //compile "com.github.JFixby.Rana:rana-loader-api:$ranaVersion"
+        
+}
