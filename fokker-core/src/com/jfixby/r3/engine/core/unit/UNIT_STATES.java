@@ -1,7 +1,0 @@
-
-package com.jfixby.r3.engine.core.unit;
-
-public enum UNIT_STATES {
-	NULL, INIT_WAS_CALLED, CREATE_WAS_CALLED, START_WAS_CALLED, PAUSE_WAS_CALLED, DESTROY_WAS_CALLED
-
-}
