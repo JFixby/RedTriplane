@@ -1,5 +1,5 @@
 
-package com.jfixby.r3.fokker.assets;
+package com.jfixby.r3.fokker.core.assets;
 
 import java.io.IOException;
 

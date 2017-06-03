@@ -1,5 +1,5 @@
 
-package com.jfixby.r3.fokker.starter;
+package com.jfixby.r3.fokker.core.starter;
 
 import java.io.IOException;
 

@@ -1,4 +1,4 @@
-package com.jfixby.r3.fokker.shader;
+package com.jfixby.r3.fokker.core.shader;
 
 import com.jfixby.r3.api.shader.ShaderParameter;
 import com.jfixby.r3.api.shader.srlz.ShaderParameterInfo;

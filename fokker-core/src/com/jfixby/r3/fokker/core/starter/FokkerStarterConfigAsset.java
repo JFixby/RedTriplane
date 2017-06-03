@@ -1,5 +1,5 @@
 
-package com.jfixby.r3.fokker.starter;
+package com.jfixby.r3.fokker.core.starter;
 
 import com.jfixby.r3.fokker.api.starter.FokkerStarterConfig;
 import com.jfixby.rana.api.asset.Asset;

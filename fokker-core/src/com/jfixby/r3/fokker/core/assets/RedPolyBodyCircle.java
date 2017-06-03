@@ -1,4 +1,4 @@
-package com.jfixby.r3.fokker.assets;
+package com.jfixby.r3.fokker.core.assets;
 
 public class RedPolyBodyCircle {
 	double x, y, radius;

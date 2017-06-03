@@ -1,4 +1,4 @@
-package com.jfixby.r3.fokker.assets;
+package com.jfixby.r3.fokker.core.assets;
 
 import com.jfixby.scarabei.api.collections.Collection;
 import com.jfixby.scarabei.api.collections.Collections;

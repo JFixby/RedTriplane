@@ -7,7 +7,7 @@ import com.jfixby.r3.api.shader.ShaderAsset;
 import com.jfixby.r3.api.shader.ShaderParameter;
 import com.jfixby.r3.api.shader.VertexProgram;
 import com.jfixby.r3.fokker.api.FokkerShader;
-import com.jfixby.r3.fokker.shader.RedShaderProgram;
+import com.jfixby.r3.fokker.core.shader.RedShaderProgram;
 import com.jfixby.rana.api.asset.AssetsConsumer;
 import com.jfixby.scarabei.api.collections.Collections;
 import com.jfixby.scarabei.api.collections.Map;
