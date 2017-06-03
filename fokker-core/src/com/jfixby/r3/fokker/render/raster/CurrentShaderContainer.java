@@ -8,7 +8,7 @@ import com.jfixby.r3.api.screen.Screen;
 import com.jfixby.r3.api.shader.FOKKER_SHADER_PARAMS;
 import com.jfixby.r3.api.shader.Shader;
 import com.jfixby.r3.api.shader.ShaderParameter;
-import com.jfixby.r3.fokker.api.render.FokkerShader;
+import com.jfixby.r3.fokker.render.FokkerShader;
 import com.jfixby.r3.fokker.render.GdxRender;
 import com.jfixby.scarabei.api.collections.Mapping;
 import com.jfixby.scarabei.api.err.Err;

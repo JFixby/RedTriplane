@@ -1,7 +1,7 @@
 
 package com.jfixby.r3.fokker.render.raster;
 
-import com.jfixby.r3.fokker.api.render.FokkerShader;
+import com.jfixby.r3.fokker.render.FokkerShader;
 import com.jfixby.scarabei.api.util.JUtils;
 
 public class CurrentFokkerShader {

@@ -3,8 +3,8 @@ package com.jfixby.r3.fokker.render.geo;
 
 import com.jfixby.r3.api.screen.Screen;
 import com.jfixby.r3.api.screen.ScreenDimentionsChecker;
-import com.jfixby.r3.fokker.api.render.FokkerShader;
 import com.jfixby.r3.fokker.render.FokkerRenderMachine;
+import com.jfixby.r3.fokker.render.FokkerShader;
 import com.jfixby.scarabei.api.err.Err;
 
 public abstract class Renderer {

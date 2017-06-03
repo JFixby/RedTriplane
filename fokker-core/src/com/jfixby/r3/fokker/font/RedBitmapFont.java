@@ -5,7 +5,7 @@ import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.Texture.TextureFilter;
 import com.badlogic.gdx.graphics.g2d.freetype.FreeTypeFontGenerator;
 import com.badlogic.gdx.graphics.g2d.freetype.FreeTypeFontGenerator.FreeTypeFontParameter;
-import com.jfixby.r3.fokker.api.render.GDXTextureContainer;
+import com.jfixby.r3.fokker.render.GDXTextureContainer;
 import com.jfixby.scarabei.adopted.gdx.fs.ToGdxFileAdaptor;
 import com.jfixby.scarabei.api.color.Color;
 import com.jfixby.scarabei.api.debug.Debug;

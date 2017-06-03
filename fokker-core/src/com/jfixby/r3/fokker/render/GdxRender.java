@@ -8,7 +8,6 @@ import com.badlogic.gdx.graphics.glutils.ShaderProgram;
 import com.badlogic.gdx.graphics.glutils.ShapeRenderer.ShapeType;
 import com.badlogic.gdx.math.Matrix4;
 import com.jfixby.r3.api.shader.Shader;
-import com.jfixby.r3.fokker.api.render.FokkerShader;
 import com.jfixby.r3.fokker.render.raster.FokkerRasterRenderer;
 import com.jfixby.scarabei.api.color.Color;
 import com.jfixby.scarabei.api.err.Err;
