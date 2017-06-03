@@ -12,7 +12,7 @@ import com.jfixby.r3.api.ui.unit.camera.Camera;
 import com.jfixby.r3.api.ui.unit.camera.CameraManager;
 import com.jfixby.r3.api.ui.unit.camera.CameraSpecs;
 import com.jfixby.r3.api.ui.unit.camera.SIMPLE_CAMERA_POLICY;
-import com.jfixby.r3.fokker.render.RenderMachine;
+import com.jfixby.r3.fokker.api.RenderMachine;
 import com.jfixby.r3.fokker.unit.RedComponentsFactory;
 import com.jfixby.r3.fokker.unit.geo.RedRectangleComponent;
 import com.jfixby.scarabei.api.assets.ID;

@@ -3,8 +3,8 @@ package com.jfixby.r3.fokker.unit.geo;
 
 import com.jfixby.r3.api.ui.unit.geometry.RectangleComponent;
 import com.jfixby.r3.api.ui.unit.layer.DrawableComponent;
-import com.jfixby.r3.fokker.render.FokkerDrawable;
-import com.jfixby.r3.fokker.render.RenderMachine;
+import com.jfixby.r3.fokker.api.FokkerDrawable;
+import com.jfixby.r3.fokker.api.RenderMachine;
 import com.jfixby.r3.fokker.unit.RedComponentsFactory;
 import com.jfixby.scarabei.api.collections.Collection;
 import com.jfixby.scarabei.api.color.Color;

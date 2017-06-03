@@ -7,7 +7,7 @@ import com.jfixby.r3.api.render.BLEND_MODE;
 import com.jfixby.r3.api.ui.unit.ComponentsFactory;
 import com.jfixby.r3.api.ui.unit.raster.Raster;
 import com.jfixby.r3.api.ui.unit.raster.TilesComposition;
-import com.jfixby.r3.fokker.render.RenderMachine;
+import com.jfixby.r3.fokker.api.RenderMachine;
 import com.jfixby.r3.fokker.unit.RedComponentsFactory;
 import com.jfixby.r3.fokker.unit.RedRectangularComponent;
 import com.jfixby.r3.fokker.unit.geo.RedRectangleComponent;

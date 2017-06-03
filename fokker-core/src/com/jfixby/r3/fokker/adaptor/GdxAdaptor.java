@@ -6,8 +6,6 @@ import com.jfixby.r3.api.input.InputQueue;
 import com.jfixby.r3.api.screen.Screen;
 import com.jfixby.r3.fokker.api.EngineState;
 import com.jfixby.r3.fokker.api.UnitsMachineExecutor;
-import com.jfixby.r3.fokker.render.FokkerRenderMachine;
-import com.jfixby.r3.fokker.render.RenderMachine;
 import com.jfixby.scarabei.api.debug.Debug;
 import com.jfixby.scarabei.api.debug.DebugTimer;
 import com.jfixby.scarabei.api.log.L;
@@ -109,7 +107,7 @@ public class GdxAdaptor implements com.badlogic.gdx.ApplicationListener, EngineS
 		this.state.expectState(ENGINE_STATE.NEW);
 		Screen.installComponent(this.viewport_state);
 // fokker_render_machine = new FokkerRenderMachine();
-		RenderMachine.installComponent(new FokkerRenderMachine());
+
 // ------------------------------
 		this.executor.doDeploy();
 		Gdx.input.setInputProcessor(this.input_adaptor);

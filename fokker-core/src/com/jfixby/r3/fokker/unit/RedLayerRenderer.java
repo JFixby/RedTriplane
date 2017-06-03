@@ -5,8 +5,8 @@ import java.util.ArrayList;
 
 import com.badlogic.gdx.graphics.FPSLogger;
 import com.jfixby.r3.api.screen.CameraProjection;
-import com.jfixby.r3.fokker.render.FokkerDrawable;
-import com.jfixby.r3.fokker.render.RenderMachine;
+import com.jfixby.r3.fokker.api.FokkerDrawable;
+import com.jfixby.r3.fokker.api.RenderMachine;
 import com.jfixby.r3.fokker.unit.cam.RedCamera;
 import com.jfixby.r3.fokker.unit.layers.FastList;
 import com.jfixby.r3.fokker.unit.layers.RedLayer;

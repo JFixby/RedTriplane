@@ -2,7 +2,7 @@
 package com.jfixby.r3.fokker.unit;
 
 import com.jfixby.r3.api.ui.unit.layer.DrawableComponent;
-import com.jfixby.r3.fokker.render.FokkerDrawable;
+import com.jfixby.r3.fokker.api.FokkerDrawable;
 import com.jfixby.scarabei.api.color.Color;
 import com.jfixby.scarabei.api.color.Colors;
 import com.jfixby.scarabei.api.color.CustomColor;
