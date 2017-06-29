@@ -3,40 +3,39 @@ include 'red-triplane-api'
 include 'red-triplane-ui-api'
 
 include 'red-triplane-shader-api'
-include 'red-triplane-shader-red'
 
-include 'red-triplane-pizza-api'
-include 'red-triplane-pizza-red'
+//include 'red-triplane-pizza-api'
+//include 'red-triplane-pizza-red'
 
-include 'red-triplane-scene2d-api'
-include 'red-triplane-scene2d-red'
+//include 'red-triplane-scene2d-api'
+//include 'red-triplane-scene2d-red'
 
-include 'red-triplane-physics-api'
-include 'red-triplane-physics-red'
+//include 'red-triplane-physics-api'
+//include 'red-triplane-physics-red'
 
-include 'red-triplane-text-api'
-include 'red-triplane-text-red'
+//include 'red-triplane-text-api'
+//include 'red-triplane-text-red'
 
-include 'red-triplane-uiact-api'
-include 'red-triplane-uiact-red'
+//include 'red-triplane-uiact-api'
+//include 'red-triplane-uiact-red'
 
 
 include 'fokker-api'
 include 'fokker-core'
 
 include 'fokker-render-api'
-include 'fokker-render-red'
+//include 'fokker-render-red'
 
-include 'fokker-ui'
-
-
-include 'fokker-font-api'
-include 'fokker-font-api'
+//include 'fokker-ui'
 
 
-include 'fokker-desktop'
-include 'fokker-android'
-include 'fokker-ios'
-include 'fokker-gwt'
+//include 'fokker-font-api'
+//include 'fokker-font-api'
+
+
+//include 'fokker-desktop'
+//include 'fokker-android'
+//include 'fokker-ios'
+//include 'fokker-gwt'
 
 
