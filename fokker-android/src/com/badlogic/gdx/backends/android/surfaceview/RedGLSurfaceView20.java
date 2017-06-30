@@ -32,13 +32,13 @@ import android.view.inputmethod.InputConnection;
 
 /** A simple GLSurfaceView sub-class that demonstrates how to perform OpenGL ES 2.0 rendering into a GL Surface. Note the
  * following important details:
- * <p/>
+ * 
  * - The class must use a custom context factory to enable 2.0 rendering. See ContextFactory class definition below.
- * <p/>
+ * 
  * - The class must use a custom EGLConfigChooser to be able to select an EGLConfig that supports 2.0. This is done by providing a
  * config specification to eglChooseConfig() that has the attribute EGL10.ELG_RENDERABLE_TYPE containing the EGL_OPENGL_ES2_BIT
  * flag set. See ConfigChooser class definition below.
- * <p/>
+ * 
  * - The class must select the surface's format, then choose an EGLConfig that matches it exactly (with regards to
  * red/green/blue/alpha channels bit depths). Failure to do so would result in an EGL_BAD_MATCH error. */
 public class RedGLSurfaceView20 extends GLSurfaceView {
