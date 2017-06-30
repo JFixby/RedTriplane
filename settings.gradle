@@ -7,7 +7,7 @@ include 'red-triplane-shader-api'
 //include 'red-triplane-pizza-api'
 //include 'red-triplane-pizza-red'
 
-//include 'red-triplane-scene2d-api'
+include 'red-triplane-scene2d-api'
 //include 'red-triplane-scene2d-red'
 
 include 'red-triplane-physics-api'
