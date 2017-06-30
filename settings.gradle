@@ -33,7 +33,7 @@ include 'fokker-render-red'
 //include 'fokker-font-api'
 
 
-//include 'fokker-desktop'
+include 'fokker-desktop'
 include 'fokker-android'
 //include 'fokker-ios'
 //include 'fokker-gwt'
