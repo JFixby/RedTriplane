@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
+	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6/"/>
 	<classpathentry kind="con" path="org.eclipse.buildship.core.gradleclasspathcontainer"/>
-	<classpathentry kind="src" path="red-triplane-fokker-ui"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/red-triplane-ui-api"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/red-triplane-uiact-api"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/scarabei-red"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/rana-api"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/rana-asset-api"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/rana-loader-api"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/rana-manager-api"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/rana-package-api"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/red-triplane-api"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

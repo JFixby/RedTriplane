@@ -17,7 +17,7 @@ include 'red-triplane-physics-api'
 //include 'red-triplane-text-red'
 
 include 'red-triplane-uiact-api'
-//include 'red-triplane-uiact-red'
+include 'red-triplane-uiact-red'
 
 
 include 'fokker-api'
