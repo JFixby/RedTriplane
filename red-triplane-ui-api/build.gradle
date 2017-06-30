@@ -11,10 +11,11 @@ repositories {
 }
 
 dependencies {
-    compile "com.github.Scarabei.Scarabei:scarabei-api:$scarabeiVersion"
-    compile "com.github.JFixby.RedStrings:strings-api:$strVersion"
     compile project(":red-triplane-api")
-  
+    
+    
+    compile "com.github.JFixby.RedStrings:strings-api:$strVersion"
+    
 }
 
 
