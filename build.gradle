@@ -14,7 +14,8 @@ ext {
         scarabeiVersion = "a63e27032c"
         scene2DVersion = "9f98612dfc"
         gdxVersion = "1.9.6"
-        ranaVersion = "39b6784bdb"
+                       
+        ranaVersion = "80f5bf2d09"
         strVersion = "8a01a69b24"
         box2DVersion = "2e1ed908b3"
         textureSlicerVer = "8d66947fbc"
