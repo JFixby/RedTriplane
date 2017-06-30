@@ -10,7 +10,7 @@ include 'red-triplane-shader-api'
 //include 'red-triplane-scene2d-api'
 //include 'red-triplane-scene2d-red'
 
-//include 'red-triplane-physics-api'
+include 'red-triplane-physics-api'
 //include 'red-triplane-physics-red'
 
 //include 'red-triplane-text-api'
@@ -34,7 +34,7 @@ include 'fokker-render-api'
 
 
 //include 'fokker-desktop'
-//include 'fokker-android'
+include 'fokker-android'
 //include 'fokker-ios'
 //include 'fokker-gwt'
 
