@@ -12,10 +12,9 @@ buildscript {
 
 ext {
         scarabeiVersion = "a63e27032c"
-        scene2DVersion = "3c18f2aac3"
         gdxVersion = "1.9.6"
-                       
         ranaVersion = "ac7fdfdaa7"
+        scene2DVersion = "3c18f2aac3"
         strVersion = "104d98b574"
         box2DVersion = "2e1ed908b3"
         textureSlicerVer = "8d66947fbc"

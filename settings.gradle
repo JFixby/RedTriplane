@@ -24,7 +24,7 @@ include 'fokker-api'
 include 'fokker-core'
 
 include 'fokker-render-api'
-//include 'fokker-render-red'
+include 'fokker-render-red'
 
 //include 'fokker-ui'
 
