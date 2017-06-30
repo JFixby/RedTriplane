@@ -13,9 +13,7 @@ repositories {
 dependencies {
     compile project(":red-triplane-ui-api")
     
-    //compile "com.github.Scarabei.Scarabei:scarabei-api:$scarabeiVersion"
     
-    //
  
 }
 

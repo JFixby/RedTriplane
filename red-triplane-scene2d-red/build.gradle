@@ -1,4 +1,3 @@
-
 apply plugin: "java"
 apply plugin: "maven"
 
@@ -15,12 +14,10 @@ dependencies {
    
     compile project(":red-triplane-scene2d-api")
 	
-	compile "com.github.JFixby.Scene2D:scene2d-api:$scene2DVersion"
-	
-	
+	compile "com.github.JFixby:Scene2D:$scene2DVersion"
 	
 	compile "com.github.RedTriplane.Rana:rana-asset-api:$ranaVersion"
-	compile "com.github.RedTriplane.Rana:rana-package-api:$ranaVersion"
+	//compile "com.github.RedTriplane.Rana:rana-package-api:$ranaVersion"
 	compile "com.github.RedTriplane.Rana:rana-manager-api:$ranaVersion"
 	compile "com.github.RedTriplane.Rana:rana-loader-api:$ranaVersion"
 	

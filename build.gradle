@@ -12,7 +12,7 @@ buildscript {
 
 ext {
         scarabeiVersion = "a63e27032c"
-        scene2DVersion = "f21715df06"
+        scene2DVersion =  "e31127bb29"
         gdxVersion = "1.9.6"
                        
         ranaVersion = "ac7fdfdaa7"
