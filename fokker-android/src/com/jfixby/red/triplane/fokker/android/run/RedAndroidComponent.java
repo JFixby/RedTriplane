@@ -15,8 +15,6 @@ import com.jfixby.scarabei.api.sys.SystemInfo;
 import com.jfixby.scarabei.api.sys.SystemInfoTags;
 import com.jfixby.scarabei.api.sys.settings.SystemSettings;
 import com.jfixby.scarabei.api.ver.Version;
-import com.jfixby.scarabei.red.display.RedDisplayMetrics;
-import com.jfixby.scarabei.red.sys.RedDeviceInfo;
 
 import android.app.ActivityManager;
 import android.content.Context;
@@ -89,7 +87,7 @@ public class RedAndroidComponent implements AndroidComponent {
 
 	@Override
 	public DisplayMetrics getDisplayMetrics () {
-
+		final DisplayMetrics displayMetrics = new DisplayMetrics();
 		final android.util.DisplayMetrics dm = new android.util.DisplayMetrics();
 		try {
 			this.app.getWindowManager().getDefaultDisplay().getMetrics(dm);
@@ -99,12 +97,10 @@ public class RedAndroidComponent implements AndroidComponent {
 		final int height = dm.heightPixels;
 		final int width = dm.widthPixels;
 
-		this.displayMetrics.set(width, height);
+		displayMetrics.set(width, height);
 
-		return this.displayMetrics;
+		return displayMetrics;
 	}
-
-	final RedDisplayMetrics displayMetrics = new RedDisplayMetrics();
 
 	@Override
 	public String getBrand () {
